@@ -32,6 +32,7 @@ Before **Installing** you need to install Java. If you don't have it yet, you ca
 
 1. `brew install jq`
 2.  Install specified version in .tool-versions file via **asdf-vm** by adding the plugin with `asdf plugin-add java https://github.com/halcyon/asdf-java.git` and then running `asdf install` in the root dir of he project
+3.  brew install maven
 
 ## Installing
 
