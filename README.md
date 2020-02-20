@@ -26,6 +26,12 @@ This tool has several advantages over using the eFetch API.
 - Even if your machine make calls that don’t exceed the published allowable calls per second, NCBI will inexplicably throttle requests. This application checks the `X-RateLimit-Remaining` and `Retry-After` response headers, and calls the API after the `retry-After` value.
 
 
+## Pre-requisites
+
+Before **Installing** you need to install Java. If you don't have it yet, you can (Mac OS):
+
+1. `brew install jq`
+2.  Install specified version in .tool-versions file via **asdf-vm** by adding the plugin with `asdf plugin-add java https://github.com/halcyon/asdf-java.git` and then running `asdf install` in the root dir of he project
 
 ## Installing
 
