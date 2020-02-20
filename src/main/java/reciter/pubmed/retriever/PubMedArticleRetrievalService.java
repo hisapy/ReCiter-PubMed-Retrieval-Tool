@@ -57,7 +57,7 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class PubMedArticleRetrievalService {
 
-    private static final int RETRIEVAL_THRESHOLD = 2000;
+    private static final int RETRIEVAL_THRESHOLD = 500000;
     
     private static ObjectMapper objectMapper = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
